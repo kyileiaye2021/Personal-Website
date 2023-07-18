@@ -1,0 +1,173 @@
+body{
+    background-color: honeydew;
+}
+h1{
+    text-align: center;
+   
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.laTech{/*for LA Tech icon*/
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 30%;
+    display: block;
+    width: 40px;
+    height: 40px;  
+}
+.nasa{/*for NASA icon*/
+    margin-top: 0px;
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+img{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;  
+}
+#about_box{/*for About Me box*/
+    background-color: lightgrey;
+    width: 700px;
+    border: 1px solid black;
+    padding:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#project_box{/*for project box*/
+    background-color: lightgrey;
+    width: 700px;
+    border: 1px solid black;
+    padding:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parent {/*for experience outer box*/
+    background-color: lightgrey;
+    width: 700px;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 3rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.child {/*for experience inner boxes*/
+    width: 250px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    background-color: rgb(195, 175, 149);
+    vertical-align: middle;
+}
+
+/*for pop up contents*/
+
+#popup {
+    z-index: 9999;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#popup2 {
+    z-index: 9999;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*for flip boxes*/
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid lightgrey;
+    perspective: 1000px;
+    margin-left: 30px;
+}
+  
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+}
+  
+.flip-box-front, .flip-box-back {/*both flip front and back side*/
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-box-front {/*flip front side*/
+    background-color: rgb(195, 175, 149);
+    color: black;
+    text-align: center;
+}
+  
+.flip-box-back {/*flip back side*/
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    transform: rotateX(180deg);
+    text-align: center;
+}
+
+footer{/*for footer*/
+    background-color: #888888;
+    text-align: center;
+    color:aliceblue;
+    height: 70px;
+}
+
+.social_media{/*for icons*/
+    text-align: center;
+}
+
+/*Navigation bar*/
+.topnav{
+    position: sticky;
+    top: 0;
+    overflow:hidden;
+    background-color:lightgrey;
+}
+.topnav a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: honeydew;
+    color: black;
+}

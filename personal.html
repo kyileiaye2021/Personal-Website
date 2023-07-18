@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="personal.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+      
+    </style>
+</head>
+
+<body style="background-color: honeydew;">
+
+  <!--Navigation bar-->
+  <div class="topnav">
+    <a href="#contact">Contact</a>
+    <a href="#project_box">Projects</a>
+    <a href="#parent">Experience</a>
+    <a href="#about_box">About</a>
+  </div>
+
+  <img src="myimage.jpg">
+    <h1 style="font-family: 'Times New Roman', Times, serif;"><b>Kyi Lei Aye</b></h1> <br>
+
+    <!--About Me box-->
+    <div id="about_box">
+      <h2>About Me</h2>
+        <ul>
+            <li><h3>Education</h3>
+                Currently a sophomore pursuing Bachelor of Computer Science <br>
+                <small>College of San Mateo | Pasadena City College</small><br>
+                <small><i><a style="color: black;" href="Transcript.html" target="_blank">Transcript-></a></i></small>
+            </li>
+
+            <li><h3>Skills</h3>
+              C++, HTML, CSS, Javascript
+            </li>
+                
+            <li><h3>Objective</h3>
+              To become a competent programmer and work in the field of software development.
+            </li>
+                
+            <li><h3>Hobbies</h3>
+              <i class="fa fa-book"></i> Reading books, <i class="material-icons">ice_skating</i>Ice-skating
+            </li>
+            <li><h3 id="contact">Languages</h3>
+              Burmese, English
+            </li>
+            <li><h3>Connect With Me!</h3></li>
+            <div> 
+              <a href="mailto:ayekyilei2003@gmail.com"class="fa fa-envelope" style="color: black;"></a> ayekyilei2003@gmail.com &ensp;
+              <a href="https://www.linkedin.com/in/kyi-lei-aye-127a7b253/" class="fa fa-linkedin" style="color: black;"></a> Kyi Lei Aye &ensp;
+              <a href="https://github.com/kyileiaye2021" class="fa fa-github" style="color: black;"></a> kyileiaye2021
+              <br>
+            </div>
+          </ul>
+    </div>
+    <br>
+
+    <!--Experience box-->
+    <div id="parent">
+      <h2>Experience</h2>
+        <div class="child">
+          <img class="laTech" src="https://pbs.twimg.com/profile_images/1544920469161123840/zGjRNE_5_400x400.jpg" alt="LA Tech" >
+          <p><b>LA Tech</b> <br> LA IT Academy powered by Microsoft</p>
+          <button id="popup-trigger"><small>Show More</small></button>
+
+          <div id="popup">
+            <h3>LA IT Career Academy powered by Microsoft <small>(LA Tech)</small></h3>
+            <i>(February, 2023 - May, 2023)</i>
+            <ul>
+              <br>
+              <li>Built a server and a back up recovery system for a startup technology company by creating virtual machines(EC2) in <b>Amazon Web Service</b> account, setting up backup options with <b>Wordpress</b>, and making them communicate with each other </li><br>
+              <li>Led the team during the server development and engage with program coach and mentors to track of the team's activities and address issues during the project</li><br>
+              <li>Constructed an EC2 instance in an AWS account and manage the company's security by making employees have access to the company's server according to the employees' departments and roles </li>
+            </ul>
+
+            <button id="popup-close">Close</button>
+          </div>
+        </div>
+
+        <div class="child"> 
+          <img class="nasa" src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" alt="NASA">
+          <p><b>NASA</b> <br> L'SPACE Mission Concept Academy</p>
+          <button id="popup-trigger2"><small>Show More</small></button>
+
+          <div id="popup2">
+            <h3>NASA L'SPACE Mission Concept Academy <small>(MCA)</small></h3>
+            <i>(May, 2023 - August, 2023)</i>
+            <ul>
+              <br>
+              <li>Collaborated with multidisciplinary teams to develop mission preliminary design for the dwarf planet Ceres between Mars and Jupiter planets</li> <br>
+              <li>Managed cost and schedule of each step in the project to ensure that the complete design of the whole mission would be accomplished within time and budget constraints</li> <br>
+              <li>Connected uplink and downlink data communication between Rover on the Ceres surface and the Earth by using telecommunication and computing systems</li>
+            </ul>
+            <button id="popup-close2">Close</button>
+          </div>
+        </div>
+    </div>
+   <script src="personal.js"></script>
+  
+    <br>
+    <!--Project box-->
+      <div id="project_box">
+          <h2>Projects</h2>
+          <br>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <br><br>
+                    <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">CULTIVATE</h3>
+                    <br>
+                    <div>Caltech Hacktech Project</div>
+                  </div>
+                  <div class="flip-box-back">
+                    <div style="font-size: large;">
+                      <br>
+                      CULTIVATE is a web app supporting farmers to connect with other farmers and clients to have advice and ideas of more sustainable ways in their farming practices and promote their sales of products. <br>
+                      <i><small>(HTML, CSS, JAVASCRIPT, REACT)</small></i> <br>
+                      <small>Other Contributor: <a href="https://www.linkedin.com/in/areli-arana-373b2920b/" target="_blank">Areli</a></small> <br>
+                      <button style="font-size: small;"> <a href="https://www.figma.com/proto/57SqLetLIJobyOojcPQL3F/Untitled?node-id=6-35&starting-point-node-id=6%3A35" target="_blank">See More</a></button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <br><br>
+                    <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">NOTEIFY ME</h3>
+                    <br>
+                    <div>UCLA LA Hacks Project</div>
+                  </div>
+                  <div class="flip-box-back">
+                    <div style="font-size: large;">
+                      <br>
+                      NOTEIFY ME is a full stack web app connected with discord API that helps and supports students to keep in touch with their class notes every day.<br>
+                      <i><small>(HTML, CSS, JAVASCRIPT, NODEJS)</small></i> <br>
+                      <small>Other Contributor: <a href="https://www.linkedin.com/in/linn-khant-thuya-b82155269/" target="_blank">Linn Khant</a></small> <br>
+                      <button style="font-size: small;"> <a href="https://github.com/kyileiaye2021/NoteifyMe" target="_blank">See More</a></button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <br><br>
+                    <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">LIBRARY</h3>
+                    <br>
+                    <div>Fundamentals of Computer Science Final Project</div>
+                  </div>
+                  <div class="flip-box-back">
+                    <div style="font-size: large;">
+                      <br>
+                      LIBRARY is a backend development project that is implemented with C++ mechanisms - such as encapsulation, polymorphism, inheritance, linked lists, overloaded operators, and exceptional handling - for the systems of the rent and return process of the library.<br>
+                      <i><small>(C++)</small></i> <br>                      
+                      <button style="font-size: small;"> <a href="https://github.com/kyileiaye2021/Library" target="_blank">See More</a></button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <br><br>
+                  <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">GradeCourse Tracker</h3>
+                  <br>
+                  <div>Fundamentals of Computer Science Midterm Project</div>
+                </div>
+                <div class="flip-box-back">
+                  <div style="font-size: large;">
+                    <br>
+                    GradeCourse Tracker is a backend software program developed with I/O streams, user-defined data types and functions, pointers, dynamic arrays, and objects that tracks and analyzes students' data according to courses they take and their grades.<br>
+                    <i><small>(C++)</small></i> <br>                      
+                    <button style="font-size: small;"> <a href="https://github.com/kyileiaye2021/GradeCourse-Tracker" target="_blank">See More</a></button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- Footer -->
+        <footer>
+          <br>
+          <div class="social_media"> 
+            <a href="mailto:ayekyilei2003@gmail.com"class="fa fa-envelope fa-lg" style="color: black;"></a> &emsp;
+            <a href="https://www.linkedin.com/in/kyi-lei-aye-127a7b253/" class="fa fa-linkedin fa-lg" style="color: black;" target="blank"></a> &emsp;
+            <a href="https://github.com/kyileiaye2021"  class="fa fa-github fa-lg" style="color: black;" target="_blank"></a>  
+            <br>
+          </div>
+          Developed by Kyi Lei Aye <br>
+        </footer>
+</body>
+</html>
+
+
