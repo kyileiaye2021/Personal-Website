@@ -25,6 +25,12 @@ h3{
     width: 49px;
     height: 49px;
 }
+.mission{/*for mission cloud icon*/
+    margin-top: 0px;
+    display: block;
+    width: 49px;
+    height: 49px;
+}
 img{
     display: block;
     margin-top: 100px;
@@ -86,6 +92,20 @@ img{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 #popup2 {
+    z-index: 9999;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#popup3{
+    
     z-index: 9999;
     display: none;
     position: fixed;
